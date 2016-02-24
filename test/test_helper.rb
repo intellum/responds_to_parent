@@ -11,7 +11,8 @@ if ActionPack::VERSION::MAJOR > 2
 
   ROUTES = ActionDispatch::Routing::RouteSet.new
   ROUTES.draw do
-    match ':controller(/:action(/:id(.:format)))'
+    get ':controller(/:action(/:id(.:format)))'
+    post ':controller(/:action(/:id(.:format)))'
   end
   ROUTES.finalize!
 

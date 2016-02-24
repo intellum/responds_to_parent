@@ -1,6 +1,6 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem "appraisal"
 gem "rake"
-gem "actionpack", "3.0.15"
+gem "actionpack", "~> 4.1"
 gem "test-unit", ">=2.5.1"

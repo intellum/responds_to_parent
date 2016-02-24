@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     abstract (1.0.0)
     actionpack (3.0.15)
@@ -41,3 +41,6 @@ DEPENDENCIES
   appraisal
   rake
   test-unit (>= 2.5.1)
+
+BUNDLED WITH
+   1.11.2
